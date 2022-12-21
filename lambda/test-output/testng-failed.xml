@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Lambdatest Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="platform" value="macOS Catalina"/>
+    <classes>
+      <class name="Selenium.lambda.Assessment">
+        <methods>
+          <include name="setUp"/>
+          <include name="testScript"/>
+        </methods>
+      </class> <!-- Selenium.lambda.Assessment -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+</suite> <!-- Failed suite [Lambdatest Suite] -->
